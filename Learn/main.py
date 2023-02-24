@@ -203,19 +203,19 @@
 #         'first_name': 'John',
 #         'last_name': 'Marley',
 #         'age': 45,
-#         'adress': ['Moscow', 'Street', '45'],
+#         'address': ['Moscow', 'Street', '45'],
 #         'grades': {'math': 5, 'physics': 3}
 #     },
 #     'user_2': {
 #         'first_name': 'Jin',
 #         'last_name': 'Woof',
 #         'age': 16,
-#         'adress': ['Berlin', 'Street', '22'],
+#         'address': ['Berlin', 'Street', '22'],
 #         'grades': {'math': 2, 'physics': 6}
 #     }
 #         }
 #
-# print(person['user_1']['adress'][2])
+# print(person['user_1']['address'][2])
 
 # data = set('hello')
 # data = {5, 7, 4, 3, 5}
@@ -232,3 +232,57 @@
 #
 #
 # print(nData)
+# def / lambda
+# def test_func(word):
+#     print(word, end='')
+#     print('!')
+#
+#
+# test_func('Hi')
+# test_func(5)
+
+# def summa(a, b):
+#     return a + b
+#
+#
+# res = summa(5.5, 7.5)
+# print(res)
+# print(summa('H', 'i'))
+
+# def minimal(l):
+#     min_number = l[0]
+#     for el in l:
+#         if el < min_number:
+#             min_number = el
+#     return min_number
+#
+# nums1 = [5, 7, 9, 4, 2]
+# min1 = minimal(nums1)
+#
+# nums2 = [5.4, 7.2, 9.1, 4.9, 1.2]
+# min2 = minimal(nums2)
+#
+# if min1 < min2:
+#     print(min1)
+# else:
+#     print(min2)
+
+# func = lambda x, y: x * y
+# res = func(5, 2)
+# print(res)
+# data = input('Write text: ')
+
+# files
+# file = open('C:/Users/Admin/Documents/GitHub/learnPython/data/text.txt', 'a')
+# #
+# file.write('data' + '\n')
+# #
+# file.close()
+
+# file = open('C:/Users/Admin/Documents/GitHub/learnPython/data/text.txt', 'r')
+
+# print(file.read(2))
+#
+# for line in file:
+#     print(line, end='')
+# file.close()
