@@ -178,5 +178,57 @@
 # print(word1)
 # print('test\'')
 
-print(True)
-print('anotherTestGIT')
+# print(True)
+# print('anotherTestGIT')
+# dict
+# country = {'code': 'RU', 'name': 'Russia', 'population': 144}
+# country = dict(code='RU', name='Russia')
+# print(country)
+
+# for key, value in country.items():
+#     print(key, ' - ', value)
+
+# print(country.get('name'))
+# country.pop()
+# country.popitem()
+# country.clear()
+# print(country.values())
+# print(country.items())
+# print(country.keys())
+# country['code'] = 'None'
+# print(country.values())
+
+# person = {
+#     'user_1': {
+#         'first_name': 'John',
+#         'last_name': 'Marley',
+#         'age': 45,
+#         'adress': ['Moscow', 'Street', '45'],
+#         'grades': {'math': 5, 'physics': 3}
+#     },
+#     'user_2': {
+#         'first_name': 'Jin',
+#         'last_name': 'Woof',
+#         'age': 16,
+#         'adress': ['Berlin', 'Street', '22'],
+#         'grades': {'math': 2, 'physics': 6}
+#     }
+#         }
+#
+# print(person['user_1']['adress'][2])
+
+# data = set('hello')
+# data = {5, 7, 4, 3, 5}
+# data.add(32)
+# data.update(['32', 4, True, 6])
+# # data.remove(True)
+# # data.pop()
+# # data.clear
+#
+# nums = [5, 5, 4, 3, 5, 6, 7, 7, 5]
+# nNums = set(nums)
+#
+# nData = frozenset([5, 5, 4, 3, 5, 6, 7, 7, 5, '32', 4, True, 6, 5, 7, 4, 3, 5]) # tuple read only
+#
+#
+# print(nData)
